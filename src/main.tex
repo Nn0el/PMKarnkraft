@@ -1,0 +1,118 @@
+
+\documentclass[11p]{article}
+% Packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[swedish]{babel}
+\usepackage[
+    backend=biber,
+    style=authoryear-ibid,
+    sorting=ynt
+]{biblatex}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%Källor
+\addbibresource{mall.bib}
+\graphicspath{ {./images/} }
+
+\title{PMmall \\ \small Fysik 1}
+\author{Magnus Silverdal }
+\date{\today}
+
+\begin{document}
+
+    \begin{titlepage}
+        \begin{center}
+            \vspace*{1cm}
+
+            \Huge
+            \textbf{Title}
+
+            \vspace{0.5cm}
+            \LARGE
+            Subtitle
+
+            \vspace{1.5cm}
+
+            \textbf{Author Name}
+
+            \vfill
+
+            Ett PM om energiförsörjning \\
+            Fysik 1
+
+            \vspace{0.8cm}
+
+            \includegraphics[width=0.4\textwidth]{../images/NTI Gymnasiet_Symbol_print_svart.png}
+
+            \Large
+            Teknikprogrammet\\
+            NTI Gymnasiet\\
+            Umeå\\
+            \today
+
+        \end{center}
+    \end{titlepage}
+% Om arbetet är långt har det en innehållsförteckning, annars kan den utelämnas
+    \tableofcontents
+    \newpage
+    \section{Disposition hos ett PM}
+    Ett PM har den mest informella strukturen av de vetenskapliga texterna. Det är egentligen bara en sammanställning av kunskap men för att den ska bli lite lättare att ta sig an brukar det finnas en inledning där syfte och frågeställningar redovisas och en avslutning där du kan dra slutsatser. Rubrikerna kan döpas valfritt, speciellt de som finns i huvuddelen av texten beror på vad den handlar om. Se nedan för ett exempel.
+
+    \section{Inledning}
+    Kärnkraftverk är en av de mest kontroversiella energikällor som finns men finns det verkligen någon anledning till detta?
+    \subsection{frågeställningar}
+    rada upp dina frågor i punktform
+    \begin{enumerate}
+        \item Hur fungerar ett kärnkraftverk?
+        \item Vad för miljöpåverkan har kärnkraftverk på både lokal och global skala?
+        \item Hur påverkar kärnkraft och kärnkraftverken samhället på både lokal och global skala?
+    \end{enumerate}
+
+    \section{Resultat}
+    Här kommer allt med massor av mer rubriker och underrubriker
+    \subsection{Kärnkraft, så fungerar det}
+    För att få energi från Uranium krävs fission alltså att klyva atomen itu.
+    När man skall klyva en atom så skickas en neutron in i atomkärnan på Uran och detta gör så att atomkärnan blir instabil.
+    När atomkärnan blir instabil så splittras atomen och i denna splitring så skapas energi.
+    Atomens splitring gör så att uranet delas på två delar men det skickas även ut två styckna neutroner och i ett kärnkraftverk så använder man neutronerna som skickas ut för att klyva andra uranatomer.
+    Att neutroner som är resultatet av en klyvning sedan klyver en annan atom kallas för kedjereaktion.
+
+    \subsection{Miljökonsekvenser av kärnkraft}
+    \subsection{Samhällets syn och påverkan av kärnkraft}
+    \subsection{}
+
+    \section{Slutsatser}
+    Här kan du dra slutsatser eller sammanfatta ditt resultat
+
+% Mer saker som du kan ha nytta av.
+
+    \section{Referenser}
+    Referenser i text kan skrivas på två sätt: Enligt \textcite{Jens} kan man använde två typer av referenser, inbäddade i texten eller efter ett fakta \parencite{Fraenkel}. Ett till test för att se hur det ser ut \parencite[sid 55]{fermi}.
+
+    \section{Annat som kan vara bra att veta}
+    Om du vill ha kodstil och få med alla tecken kan du använda verbatim. då kan du skriva \verb|abcd!"#| utan problem...
+
+    Citat skrivs mellan de konstiga symbolerna \verb|``| och \verb|''| för att de ska se bra ut ``se bra ut!''.
+    \subsection{En underrubrik}
+    \subsubsection{En underunderrubrik}
+    \subsection{Ekvationer}
+    Det är lätt att skriva matematik i \LaTeX
+
+    \begin{equation}
+        F = G \frac{M m}{r^2}
+        \label{grav}
+    \end{equation}
+
+    Ekvation (\ref{grav}) känner ni igen...
+
+    \subsection{figurer}
+    Bilder placeras enklast på detta sätt. placeringen bestämmer \LaTeX och vi kan bara föreslå (h)är, (t)opp eller (b)otten. Ett utropstecken före tvingar lite mer men inte absolut. I bild \ref{varg} visas en varg
+    \begin{figure}[!h]
+
+        \caption{Acceleration-tid diagram. Källa: Impuls Fysik 1}
+        \label{varg}
+    \end{figure}
+    \printbibliography
+
+\end{document}
