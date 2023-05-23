@@ -1,14 +1,14 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[123] biber-MSWIN64:340> INFO - === 
-[163] Biber.pm:419> INFO - Reading 'C:\Users\noel.johansson\IdeaProjects\PMKärnkraft\src\main.bcf'
-[275] Biber.pm:979> INFO - Found 4 citekeys in bib section 0
-[292] Biber.pm:4419> INFO - Processing section 0
-[305] Biber.pm:4610> INFO - Looking for bibtex file 'mall.bib' for section 0
-[366] bibtex.pm:1713> INFO - LaTeX decoding ...
-[374] bibtex.pm:1519> INFO - Found BibTeX data source 'C:\Users\noel.johansson\IdeaProjects\PMKärnkraft\src\mall.bib'
-[415] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[415] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[415] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'sv-SE'
-[423] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[424] bbl.pm:763> INFO - Output to main.bbl
+[132] biber-MSWIN64:340> INFO - === 
+[190] Biber.pm:419> INFO - Reading 'C:\Users\noel.johansson\IdeaProjects\PMKärnkraft\src\main.bcf'
+[322] Biber.pm:979> INFO - Found 4 citekeys in bib section 0
+[339] Biber.pm:4419> INFO - Processing section 0
+[353] Biber.pm:4610> INFO - Looking for bibtex file 'mall.bib' for section 0
+[424] bibtex.pm:1713> INFO - LaTeX decoding ...
+[432] bibtex.pm:1519> INFO - Found BibTeX data source 'C:\Users\noel.johansson\IdeaProjects\PMKärnkraft\src\mall.bib'
+[478] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[478] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[478] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'sv-SE'
+[487] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[488] bbl.pm:763> INFO - Output to main.bbl
